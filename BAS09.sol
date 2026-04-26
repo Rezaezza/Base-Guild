@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.25;
 
 contract BAS9 {
     string public name = "ADAPTER";
@@ -31,3 +31,7 @@ contract BAS9 {
         require(ownerOf[tokenId] != address(0), "Token does not exist");
         return _tokenURIs[tokenId];
     }
+}
+    
+
+
