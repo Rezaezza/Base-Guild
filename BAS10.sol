@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.25;
 
 contract BAS10 {
-    string public name = "MAWARNI";
-    string public symbol = "MWR";
+    string public name = "DWIBHAKTI";
+    string public symbol = "DBK";
     uint256 public constant MAX_SUPPLY = 100;
 
     uint256 public totalSupply;
@@ -31,3 +31,4 @@ contract BAS10 {
         require(ownerOf[tokenId] != address(0), "Token does not exist");
         return _tokenURIs[tokenId];
     }
+}
