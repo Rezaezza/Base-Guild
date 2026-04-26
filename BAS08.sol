@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.25;
 
-contract Testing1 {
+contract BAS8 {
     string public name = "HONDA";
     string public symbol = "HND";
     uint256 public totalSupply = 1_000_000;
