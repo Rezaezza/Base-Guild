@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract SimpleNFT {
+contract BAS10 {
     string public name = "MAWARNI";
     string public symbol = "MWR";
     uint256 public constant MAX_SUPPLY = 100;
