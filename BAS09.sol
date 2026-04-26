@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract SimpleNFT {
+contract BAS9 {
     string public name = "ADAPTER";
     string public symbol = "APR";
     uint256 public constant MAX_SUPPLY = 100;
